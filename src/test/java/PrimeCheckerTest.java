@@ -17,4 +17,8 @@ public class PrimeCheckerTest {
     void testPrimeNumber() {
         assertTrue(PrimeChecker.isPrime(5));
     }
+    @Test
+    void testNumberZero() {
+        assertFalse(PrimeChecker.isPrime(0));
+    }
 }
